@@ -42,7 +42,6 @@ class RadioGroup extends Component {
       }
       return (
         <div className={className} key={radio.value}>
-          <label>
             <input
               ref={input => {
                 this.elements[radio.value] = input;
@@ -52,7 +51,8 @@ class RadioGroup extends Component {
               value={radio.value}
               onChange={this.handleChange}
               disabled={disabled}
-            />{' '}
+            />
+          <label>
             {radio.label}
           </label>
         </div>
