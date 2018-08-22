@@ -1,6 +1,6 @@
 {
   "name": "bobvanoorschot-formsy-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of React JS components for use in a formsy-react form. With flex and custom styling.",
   "scripts": {
     "test": "jest",

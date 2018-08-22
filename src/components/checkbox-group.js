@@ -29,19 +29,18 @@ class CheckboxGroup extends Component {
       const disabled = checkbox.disabled || this.props.disabled;
       return (
         <div className="checkbox" key={checkbox.value}>
-          <label>
-            <input
-              ref={input => {
-                this.elements[checkbox.value] = input;
-              }}
-              checked={checked}
-              type="checkbox"
-              value={checkbox.value}
-              onChange={this.handleChange}
-              disabled={disabled}
-            />{' '}
-            {checkbox.label}
-          </label>
+          <input
+            ref={input => {
+              this.elements[checkbox.value] = input;
+            }}
+            checked={checked}
+            type="checkbox"
+            value={checkbox.value}
+            onChange={this.handleChange}
+            disabled={disabled}
+            id={checkbox.label}
+          />
+          <label htmlFor={checkbox.label}>{checkbox.label}</label>
         </div>
       );
     });

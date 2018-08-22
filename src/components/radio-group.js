@@ -42,19 +42,18 @@ class RadioGroup extends Component {
       }
       return (
         <div className={className} key={radio.value}>
-            <input
-              ref={input => {
-                this.elements[radio.value] = input;
-              }}
-              checked={checked}
-              type="radio"
-              value={radio.value}
-              onChange={this.handleChange}
-              disabled={disabled}
-            />
-          <label>
-            {radio.label}
-          </label>
+          <input
+            ref={input => {
+              this.elements[radio.value] = input;
+            }}
+            checked={checked}
+            type="radio"
+            value={radio.value}
+            onChange={this.handleChange}
+            disabled={disabled}
+            id={radio.label}
+          />
+          <label htmlFor={radio.label}>{radio.label}</label>
         </div>
       );
     });
