@@ -7,4 +7,4 @@ fi
 
 export NODE_ENV=production;
 
-yarn transpile;
+yarn lint && yarn transpile;

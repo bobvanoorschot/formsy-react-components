@@ -14,7 +14,7 @@ import {
   File,
   Textarea,
   Form,
-} from 'formsy-react-components';
+} from 'bobvanoorschot-formsy-components';
 /* eslint-enable */
 
 const Playground = props => {

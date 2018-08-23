@@ -25,7 +25,7 @@ class RadioGroup extends Component {
       const className = `radio${disabled ? ' disabled' : ''}`;
       if (this.props.type === 'inline') {
         return (
-          <label className="radio-inline" key={radio.value}>
+          <div className="radio-inline" key={radio.value}>
             <input
               ref={input => {
                 this.elements[radio.value] = input;
@@ -35,9 +35,10 @@ class RadioGroup extends Component {
               value={radio.value}
               onChange={this.handleChange}
               disabled={disabled}
-            />{' '}
-            {radio.label}
-          </label>
+              id={radio.label}
+            />
+            <label htmlFor={radio.label}>{radio.label}</label>
+          </div>
         );
       }
       return (

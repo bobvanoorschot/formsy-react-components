@@ -15,14 +15,14 @@ To install using `yarn`:
 
 ```
 yarn add formsy-react
-yarn add formsy-react-components
+yarn add bobvanoorschot-formsy-components
 ```
 
 To install using `npm`:
 
 ```
 npm install --save formsy-react
-npm install --save formsy-react-components
+npm install --save bobvanoorschot-formsy-components
 ```
 
 ## Browser Support
