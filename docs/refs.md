@@ -7,7 +7,7 @@ Use the `componentRef` property to get a reference to the component.
 (We access the ref using the `componentRef` prop, because our actual component is wrapped in a couple of Higher Order Components.)
 
 ```jsx
-import { Form, Input, RadioGroup } from 'formsy-react-components';
+import { Form, Input, RadioGroup } from 'bobvanoorschot-formsy-components';
 
 class MyForm extends Component {
 
@@ -65,7 +65,7 @@ termsCheckboxElement = annoyingCheckboxesComponent.elements['agree-to-terms'];
 Our `Form` component composes a [`Formsy.Form`](https://github.com/christianalfoni/formsy-react/blob/master/API.md#formsyform). To get a reference to the `Formsy.Form`, use we expose a `formsyForm` ref. This is handy if you wish to call `Formsy.Form` methods — in this example `reset()`.
 
 ```jsx
-import { Form, Input } from 'formsy-react-components';
+import { Form, Input } from 'bobvanoorschot-formsy-components';
 
 class MyForm extends Component {
 

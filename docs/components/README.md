@@ -1,6 +1,6 @@
 # Components
 
-**Note:** Docs are in-progress. Have a look at the [examples](https://github.com/twisty/formsy-react-components/tree/master/examples) to see how things work.
+**Note:** Docs are in-progress. Have a look at the [examples](https://github.com/twisty/bobvanoorschot-formsy-components/tree/master/examples) to see how things work.
 
 The components included are:
 

@@ -32,7 +32,7 @@ module.exports = {
 
   resolve: {
     alias: {
-      'formsy-react-components': path.resolve(__dirname, '../src/main'),
+      'bobvanoorschot-formsy-components': path.resolve(__dirname, '../src/main'),
     },
   },
 };

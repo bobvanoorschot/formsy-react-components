@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /* eslint-disable import/extensions, import/no-unresolved, import/no-extraneous-dependencies */
-import {Checkbox, RadioGroup, Form} from 'formsy-react-components';
+import {Checkbox, RadioGroup, Form} from 'bobvanoorschot-formsy-components';
 /* eslint-enable */
 
 const Options = props => {

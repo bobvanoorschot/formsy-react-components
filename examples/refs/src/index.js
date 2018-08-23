@@ -14,7 +14,7 @@ import {
   CheckboxGroup,
   Select,
   Textarea,
-} from 'formsy-react-components';
+} from 'bobvanoorschot-formsy-components';
 /* eslint-enable */
 
 class App extends Component {

@@ -18,7 +18,7 @@
   "main": "./release/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bobvanoorschot/formsy-react-components.git"
+    "url": "https://github.com/bobvanoorschot/bobvanoorschot-formsy-components.git"
   },
   "keywords": [
     "react",
@@ -29,7 +29,7 @@
   "author": "Bob van Oorschot <bobvanoorschot@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bobvanoorschot/formsy-react-components/issues"
+    "url": "https://github.com/bobvanoorschot/bobvanoorschot-formsy-components/issues"
   },
   "jest": {
     "roots": [

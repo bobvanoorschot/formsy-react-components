@@ -26,4 +26,4 @@ The output for the example above becomes:
 </div>
 ```
 
-See the [Layout tweaks](http://twisty.github.io/formsy-react-components/playground/) in the playground for an example ([code](../examples/playground/src/playground.js#L224-L245)).
+See the [Layout tweaks](http://twisty.github.io/bobvanoorschot-formsy-components/playground/) in the playground for an example ([code](../examples/playground/src/playground.js#L224-L245)).
