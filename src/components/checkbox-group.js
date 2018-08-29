@@ -38,9 +38,9 @@ class CheckboxGroup extends Component {
             value={checkbox.value}
             onChange={this.handleChange}
             disabled={disabled}
-            id={checkbox.label}
+            id={checkbox.value}
           />
-          <label htmlFor={checkbox.label}>{checkbox.label}</label>
+          <label htmlFor={checkbox.value}>{checkbox.label}</label>
         </div>
       );
     });

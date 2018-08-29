@@ -35,9 +35,9 @@ class RadioGroup extends Component {
               value={radio.value}
               onChange={this.handleChange}
               disabled={disabled}
-              id={radio.label}
+              id={radio.value}
             />
-            <label htmlFor={radio.label}>{radio.label}</label>
+            <label htmlFor={radio.value}>{radio.label}</label>
           </div>
         );
       }
